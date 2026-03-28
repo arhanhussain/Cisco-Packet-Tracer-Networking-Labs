@@ -25,7 +25,7 @@ The network consists of 3 routers connected in a triangular topology with 2 LAN 
 ## ⚙️ Configuration
 
 ### Router 0
-```
+```bash
 enable
 configure terminal
 router ospf 1
@@ -35,7 +35,7 @@ exit
 ```
 
 ### Router 1
-```
+```bash
 enable
 configure terminal
 router ospf 1
@@ -46,7 +46,7 @@ exit
 ```
 
 ### Router 2
-```
+```bash
 enable
 configure terminal
 router ospf 1
